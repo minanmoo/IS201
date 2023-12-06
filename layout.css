@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(245, 242, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    /* background-color: #b47d7d; */
+    /* border: 2px solid rgb(138, 71, 71); */
+    position: absolute;
+    color:black
+
+}
+
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 75px;
+    z-index: 2;
+    border-bottom: solid 1px black;
+}
+
+.leftmenu {
+top: 114px;
+left: 5px;
+width: 100px;
+bottom: 39px;
+z-index: 1;
+padding-top: 40px;
+border-right: solid 1px gray;
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+       padding-right:15px;
+
+}
+
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-left: solid 1px gray;
+    padding-left: 10px;
+    padding-right: 5px;
+    justify-content: center;
+    font-size: small;
+}
+.footer {
+
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    padding-top: 15px;
+    position:fixed;
+    border-top: 1px black;
+    
+}
+.sub {
+    float: right;
+}
